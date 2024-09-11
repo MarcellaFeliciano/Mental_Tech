@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/pasta_css/agendamento2.css">
+</head>
+<body>
+    <div class="conteiner">
+        <header>
+            <img src="/imagens_projeto/logoMentalTech.svg" class="logo">
+            <div class="cabecalho">
+                <h1>Agendamentos online</h1>
+
+
+                <button class="menu-troca" onclick="trocaMenu()">&#9776</button>
+                <nav class="menu">
+                    <a href=""><h2 style="color: black;">Psicóloga</h2></a>
+                    <a href="agendamento3.html"><h2>Nutricionista</h2></a>
+                </nav>
+
+                
+                <div class="opcions">
+                    <a href="" id="links" ><h2 style="color: black;">Psicóloga</h2></a>
+                    <a href="agendamento3.html" id="links"><h2>Nutricionista</h2></a>
+                </div>
+            </div>
+            <div class="header_menu_hide">
+                <input type="checkbox" id="botao">
+                <label for="botao">&#9776;</label>
+                <ul class="menu_hide">
+                    <li><a href="index.html">Página Inicial</a></li>
+                    <li><a href="dashboard.html" class="ative">Dashboard</a></li>
+                    <li><a href="cronograma.html">Cronograma</a></li>
+                    <li><a href="conta.html">Conta</a></li>
+                    <li><a href="sobre_nos.html">Sobre nós</a></li>
+                </ul>
+            </div>
+            
+        </header>
+        <section>
+            <div class="funcionario">
+                <h4>Agenda:</h4>
+                <p>Dra. Letícia</p>
+            </div>
+
+            <div class="org">
+                <div class="opc">
+                    <h4>Selecione o hórario desejado na lista abaixo.</h4>
+                </div>
+                <div class="especifica">
+                    <div class="afasta">
+                        <p>Data</p>
+                    </div>
+                    <div class="horarios" id="h">
+                            <p>Hórarios:</p>
+                        <div class="menu_cores">
+                            <div class="mm">
+                                <div class="cinza"></div>
+                                <p>Disponível</p>
+                            </div>
+                            <div class="mm">
+                                <div class="azul"></div>
+                            <p>Reservado</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+
+            <div class="dias ">
+                <div class="especifica">
+                    <div class="afasta">
+                        <p>Segunda</p>
+                    </div> 
+                    <div class="horarios n u">
+                        <button class="hr">08:00</button >
+                        <button class="hr">08:30</button >
+                        <button class="hr">09:00</button >
+                        <button class="hr">09:30</button >
+                        <button class="hr">10:00</button >
+                        <button class="hr">10:30</button >
+                        <button class="hr">11:00</button >
+                        <button class="hr">11:30</button >
+                        <button class="hr">12:00</button > 
+                    </div>                       
+                </div>
+            </div>
+
+            <div class="dias">
+                <div class="especifica">
+                    <div class="afasta">
+                        <p>Terça</p>
+                    </div>                                         
+                    <p>🅧 Não atende</p> 
+                </div>
+            </div>
+
+            <div class="dias">
+                <div class="especifica">
+                    <div class="afasta">
+                        <p>Quarta</p>
+                    </div>
+                    <div class="horarios n u">
+                        <button class="hr">13:00</button>
+                        <button class="hr">13:30</button>
+                        <button class="hr">14:00</button>
+                        <button class="hr">14:30</button>
+                        <button class="hr">15:00</button>
+                        <button class="hr">15:30</button>
+                        <button class="hr">16:00</button>
+                        <button class="hr">16:30</button>
+                        <button class="hr">17:00</button>
+                    </div>
+                                              
+                    
+                </div>
+            </div>
+
+            <div class="dias">
+                <div class="especifica">
+                    <div class="afasta">
+                        <p>Quinta</p>
+                    </div>
+                    <div class="horarios n">
+                        <button class="hr">14:00</button>
+                        <button class="hr">14:30</button>
+                        <button class="hr">15:00</button>
+                        <button class="hr">15:30</button>
+                        <button class="hr">16:00</button>
+                    </div>                        
+                                     
+                    
+                </div>
+            </div>
+
+            <div class="dias" id="d">
+                <div class="especifica">
+                    <div class="afasta">
+                        <p>Sexta</p>
+                    </div> 
+                    <div class="horarios n">
+                        <button class="hr">08:00</button>
+                        <button class="hr">08:30</button>
+                        <button class="hr">09:00</button>
+                        <button class="hr">09:30</button>
+                        <button class="hr">10:00</button>
+                    </div>                       
+                                       
+                    
+                </div>
+            </div>
+            </div>
+        </section>
+    </div>
+    <script src="/pasta_js/click.js"></script>
+</body>
+</html>

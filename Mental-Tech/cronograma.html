@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="pasta_css/cronograma.css">
+  <title>Mental Tech</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="imagens_projeto/logoMentalTech.svg" alt="Logo" class="logo">
+      <img src="imagens_projeto/nome mt.svg" alt="Name_ogo" class="name_logo">
+    </div>
+    <div>
+
+    </div>
+    <nav class="menu">
+      <a href="index.html">Página inicial</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="cronograma.html" class="ative">Cronograma</a>
+      <a href="conta.html">Conta</a>
+      <a href="sobre_nos.html">Sobre nós</a>
+    </nav>
+
+    <div class="header_menu_hide">
+      <input type="checkbox" id="botao">
+      <label for="botao">&#9776;</label>
+      <ul class="menu_hide">
+          <li><a href="index.html">Página Inicial</a></li>
+          <li><a href="dashboard.html">Dashboard</a></li>
+          <li><a href="cronograma.html" class="ative">Cronograma</a></li>
+          <li><a href="conta.html">Conta</a></li>
+          <li><a href="sobre_nos.html">Sobre nós</a></li>
+      </ul>
+  </div>
+  </header>
+  <main>
+    <aside>
+        <div class="text_tarefa">
+            <h3>Adicionar tarefa diária</h3>
+        </div>
+        <div class="add_tarefa">
+          <input type="text" id="tname" placeholder="   Digite uma nova tarefa:">
+          <img id='img_add' src="imagens_projeto/plus-square-fill.svg">
+          <img id="img_excluir" src="imagens_projeto/x-square-fill.svg">
+        </div>
+        <div id="list_tarefas">
+        <!-- 
+          <div id='tesk'>
+            <p id="p_tesk">Tarefa Diária</p>
+            <button id="bt_ok">OK</button>
+          </div>
+        -->
+        </div>
+
+
+
+    </aside>
+    <section id="cronograma_page">
+      <div id="dias_semana">
+        <p></p>
+        <p>Segunda</p>
+        <p>Terça</p>
+        <p>Quarta</p>
+        <p>Quinta</p>
+        <p>Sexta</p>
+        <p>Sábado</p>
+        <p>Domingo</p>
+
+      </div>
+      <div id='lin'>
+        <p>7h</p>
+        <input>
+        <input>
+        <input>
+        <input>
+        <input>
+        <input>
+        <input>
+      </div>
+
+      <div id='lin'>
+        <p>8h</p>
+        <input>
+        <input>
+        <input>
+        <input>
+        <input>
+        <input>
+        <input>
+      </div>
+
+      <div id='lin'>
+        <p>9h</p>
+        <input>
+        <input>
+        <input>
+        <input>
+        <input>
+        <input>
+        <input>
+      </div>
+
+      <div id='lin'>
+        <p>10h</p>
+        <input>
+        <input>
+        <input>
+        <input>
+        <input>
+        <input>
+        <input>
+      </div>
+
+      <div id='lin'>
+        <p>11h</p>
+        <input>
+        <input>
+        <input>
+        <input>
+        <input>
+        <input>
+        <input>
+      </div>
+
+      <div id='lin'>
+        <p>13h</p>
+        <input>
+        <input>
+        <input>
+        <input>
+        <input>
+        <input>
+        <input>
+      </div>
+
+      <div id='lin'>
+        <p>14h</p>
+        <input>
+        <input>
+        <input>
+        <input>
+        <input>
+        <input>
+        <input>
+      </div>
+
+      <div id='lin'>
+        <p>15h</p>
+        <input>
+        <input>
+        <input>
+        <input>
+        <input>
+        <input>
+        <input>
+      </div>
+
+      <div id='lin'>
+        <p>15h</p>
+        <input>
+        <input>
+        <input>
+        <input>
+        <input>
+        <input>
+        <input>
+      </div>
+      <div id='lin'>
+        <p>16h</p>
+        <input>
+        <input>
+        <input>
+        <input>
+        <input>
+        <input>
+        <input>
+      </div>
+      <div id='lin'>
+        <p>17h</p>
+        <input>
+        <input>
+        <input>
+        <input>
+        <input>
+        <input>
+        <input>
+      </div>
+
+      <div id='lin'>
+        <p>18h</p>
+        <input>
+        <input>
+        <input>
+        <input>
+        <input>
+        <input>
+        <input>
+      </div>
+
+
+    </section>
+    
+  </main>
+  <footer>
+    <p>© 2023 IFRN campus caicó. All rights reserved.</p>
+       
+  </footer>
+
+  <script src="./pasta_js/cronograma.js">
+
+  </script>
+</body>
